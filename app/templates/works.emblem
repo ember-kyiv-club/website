@@ -3,18 +3,8 @@ view "section" class="p4"
     .h1 Works
 
     .works
-      a.work.lib href="#"
-        h3 jquery-handsontable
-        div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
+      each project in controller.model
+        a.work.lib{{bind-attr href="project.link"}}
+          h3 = project.name
+          div = project.description
 
-      a.work href="#"
-        h3 jquery-handsontable
-        div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-      a.work href="#"
-        h3 jquery-handsontable
-        div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-      a.work.lib href="#"
-        h3 jquery-handsontable
-        div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
