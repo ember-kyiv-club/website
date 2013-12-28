@@ -15,5 +15,6 @@ view "section" class="p3"
               if schedule.autor
                 |&nbsp; Автор: &nbsp;
                 = schedule.autor
-
-      img{{bind-attr src="model.address"}}
+        if model.address
+          .map
+            iframe{{bind-attr src="model.address"}} width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"

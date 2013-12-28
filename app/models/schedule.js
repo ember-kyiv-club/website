@@ -18,7 +18,7 @@ Schedule.FIXTURES = [
 
   {
     id:          3,
-    title:       "13.10 - 15.00 Ember.js как инструмент быстрых прототипов",
+    title:       "13.10 - 15.00 Ember.js - инструмент быстрого прототипирования",
     autor:       "Alex Opak"
   }
 ];

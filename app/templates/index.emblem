@@ -2,9 +2,9 @@ view "section" class="p1"
   .header
     .logo
     .socials
-      a.fb href="#"
+      /a.fb href="#"
       a.tv href="#"
-      a.gl href="#"
+      /a.gl href="#"
 
   article
     .h1 Что здесь будет? Прямо сейчас ссылки

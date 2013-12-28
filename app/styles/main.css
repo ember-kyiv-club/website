@@ -92,7 +92,9 @@ body {
     height:20px;
     content:'';}
 .section-wrapper > article {
-    overflow:hidden;}
+    overflow:hidden;
+    padding-bottom: 40px;
+}
 .p1 { background:url(images/p1.jpg) 0px 50% no-repeat;
     background-size:cover;}
 .p2 { background:url(images/p2.jpg) 0px 50% no-repeat;
@@ -484,5 +486,11 @@ textarea {resize: vertical;}
 .clearfix:after {clear: both;}
 /* For IE 6/7 only  */
 .clearfix {    *zoom: 1;}
-
+.map { margin:20px 0;
+    padding:5px;
+    border:#fff 1px dotted;
+    display:inline-block;
+    clear:both}
+.map small { display:none;}
+.map:after { display:block; width:100%; content:''; clear:both;}
 
