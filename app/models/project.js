@@ -1,11 +1,11 @@
-var Work =  DS.Model.extend({
+var Project =  DS.Model.extend({
   icon:        DS.attr('string'),
   name:        DS.attr('string'),
   description: DS.attr('string'),
   link:        DS.attr('string')
 });
 
-Work.FIXTURES = [
+Project.FIXTURES = [
   {
     id:          1,
     name:        "Ember-Admin",
@@ -26,4 +26,4 @@ Work.FIXTURES = [
   }
 ];
 
-export default Work;
+export default Project;

@@ -7,7 +7,7 @@ Router.map(function() {
     this.route('show', {path: "/:event_id/show"});
   });
   this.route('events');
-  this.route('works');
+  this.route('projects');
   this.route('contacts');
 });
 

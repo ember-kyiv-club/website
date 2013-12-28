@@ -12,7 +12,7 @@
           link-to "events"
             | События
         li
-          link-to "works"
+          link-to "projects"
             | Проекты
         li
           link-to "contacts"

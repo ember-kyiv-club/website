@@ -7,7 +7,7 @@ var User =  DS.Model.extend({
 
   avatar: function(){
     if (this.get('photo')){
-      return this.get('photo')
+      return this.get('photo');
     }
     return 'http://www.gravatar.com/avatar/' + md5(this.get('email'));
   }.property('email', 'photo')
