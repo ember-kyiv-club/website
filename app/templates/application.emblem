@@ -17,6 +17,9 @@
         li
           link-to "contacts"
             | Контакты
+        li
+          link-to "resources"
+            | Ресурсы
     .swiper-wrapper
       == outlet
 

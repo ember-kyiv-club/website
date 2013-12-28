@@ -1,0 +1,7 @@
+view "section" class="p6"
+  article
+    .h1 Ресурсы
+    ul
+      each resource in controller.model
+        li.resource
+          a{{bind-attr href="resource.url"}} target="_blank"=resource.title
