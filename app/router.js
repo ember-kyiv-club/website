@@ -6,6 +6,7 @@ Router.map(function() {
   this.route('events');
   this.route('works');
   this.route('contacts');
+  this.route('resources');
 });
 
 export default Router;

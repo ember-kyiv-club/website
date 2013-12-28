@@ -96,6 +96,8 @@ body {
     background-size:cover;}
 .p5 { background:url(images/p2.jpg) 50% no-repeat;
     background-size:cover;}
+.p6 { background:url(images/p6.jpg) 50% no-repeat;
+    background-size:cover;}
 .bg {
     position:fixed;
     top:0px; bottom:0px;
@@ -174,6 +176,7 @@ h3 { font-size:2.5em}
 .usr_av img { width:110px; height:110px; margin:-3px 0 0 -3px;}
 .usr_av:hover img { width:104px; height:104px; margin:0px;}
 
+.resource a,
 .usr a { color:#fff;}
 .usr .usr_name {
     font-size:170%;
