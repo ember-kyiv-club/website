@@ -1,6 +1,6 @@
 view "section" class="p5"
   article
-    .h1 Contacts
+    .h1 Контакты
     .phones
       h5 Позвоните
       div 097 848-41-14

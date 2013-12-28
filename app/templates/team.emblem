@@ -1,6 +1,6 @@
 view "section" class="p2"
   article
-    .h1 Team
+    .h1 Команда
     .users
       each user in controller.model
         .usr

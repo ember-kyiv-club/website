@@ -1,6 +1,6 @@
 view "section" class="p3"
   article
-    .h1 Events
+    .h1 События
     .events
       each event in controller.model
         link-to "events.show" event class="event"
