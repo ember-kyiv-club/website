@@ -22,7 +22,7 @@
       article
         .h1 Что здесь будет? Прямо сейчас ссылки
         .txt_block В поисках инструмента для написания своего простенького веб-приложения я наткнулся на JavaScript фреймворк ember.js – новый, интересный и бурно развивающийся. Материалы на нашем родном языке практически отсутствуют, да и на английском неполные и разбросаны в разных местах. И потому решил я создать сей бложик в помощь себе и другим для накопления и систематизации материалов по ember.js и дополнениям к нему (а их тоже уже довольно много)
-        a#p2.down_arr
+        a#p2.down_arr href="#"
 
     section.section-wrapper.p2#p2
       article
@@ -63,107 +63,79 @@
       article
         .h1 Events
         .events
-/                <a class="event" href="#">
-/                    <img src="static/event.jpg" />
-/                    <div>
-/                        <h3>DevCon 2014</h3>
-/                        <div>26 – 28 сентября, Киев</div>
-/                        <div>evCon – ежегодная конференция о разработке для всей платформы Microsoft. </div>
-/                        <div class="event_author">Burton Fink</div>
-/                    </div>
-/                </a>
-/                <a class="event" href="#">
-/                    <img src="static/event.jpg" />
-/                    <div>
-/                        <h3>DevCon 2014</h3>
-/                        <div>26 – 28 сентября, Киев</div>
-/                        <div>evCon – ежегодная конференция о разработке для всей платформы Microsoft. </div>
-/                        <div class="event_author">Burton Fink</div>
-/                    </div>
-/                </a>
-/                <a class="event" href="#">
-/                    <img src="static/event.jpg" />
-/                    <div>
-/                        <h3>DevCon 2014</h3>
-/                        <div>26 – 28 сентября, Киев</div>
-/                        <div>evCon – ежегодная конференция о разработке для всей платформы Microsoft. </div>
-/                        <div class="event_author">Burton Fink</div>
-/                    </div>
-/                </a>
-/                <a class="event" href="#">
-/                    <img src="static/event.jpg" />
-/                    <div>
-/                        <h3>DevCon 2014</h3>
-/                        <div>26 – 28 сентября, Киев</div>
-/                        <div>evCon – ежегодная конференция о разработке для всей платформы Microsoft. </div>
-/                        <div class="event_author">Burton Fink</div>
-/                    </div>
-/                </a>
-/
-/            </div><!--users END-->
-/            </article>
-/        </section>
-/
-/
-/
-/
-/            <section class="section-wrapper p4"  id="p4">
-/            	<article>
-/                <div class="h1">Works</div>
-/
-/                <div class="works">
-/                	<a class="work lib" href="#">
-/                        <h3>jquery-handsontable</h3>
-/                        <div>Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery</div>
-/                    </a>
-/                	<a class="work" href="#">
-/                        <h3>jquery-handsontable</h3>
-/                        <div>Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery</div>
-/                    </a>
-/                	<a class="work" href="#">
-/                        <h3>jquery-handsontable</h3>
-/                        <div>Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery</div>
-/                    </a>
-/                	<a class="work lib" href="#">
-/                        <h3>jquery-handsontable</h3>
-/                        <div>Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery</div>
-/                    </a>
-/
-/                </div><!--users END-->
-/                </article>
-/            </section>
-/
-/
-/            <section class="section-wrapper p5"  id="p5">
-/            	<article>
-/                <div class="h1">Contacts</div>
-/                	<div class="phones">
-/                    	<h5>Call Us</h5>
-/                        <div>068 322-34-71</div>
-/                        <div>096 707-29-00</div>
-/                    </div>
-/                    <form class="feedback">
-/                        <h5>Or send a message</h5>
-/                        <div class="fields">
-/                            <label for="f1">Имя</label>
-/                            <input id="f1" type="text">
-/                        </div>
-/                        <div class="fields">
-/                            <label for="f2">E-mail</label>
-/                            <input id="f2" type="text">
-/                        </div>
-/                        <div class="fields">
-/                            <label for="f3">Сообщение</label>
-/                            <textarea id="f3" cols="" rows="7"></textarea>
-/                        </div>
-/                        <input type="submit" class="bttn">
-/                    </form>
-/                </article>
-/            </section>
-/        </div><!-- swiper-wrapper -->
-/    </div> <!-- main_wrap -->
-/
-/</div> <!-- page_wrap -->
-/
-/<footer>
-/</footer>
+          a.event href="#"
+            img src="static/event.jpg"
+            div
+              h3 DevCon 2014
+              div 26 – 28 сентября, Киев
+              div evCon – ежегодная конференция о разработке для всей платформы
+              .event_author Burton Fink
+
+          a.event href="#"
+            img src="static/event.jpg"
+            div
+              h3 DevCon 2014
+              div 26 – 28 сентября, Киев
+              div evCon – ежегодная конференция о разработке для всей платформы
+              .event_author Burton Fink
+          a.event href="#"
+            img src="static/event.jpg"
+            div
+              h3 DevCon 2014
+              div 26 – 28 сентября, Киев
+              div evCon – ежегодная конференция о разработке для всей платформы
+              .event_author Burton Fink
+
+          a.event href="#"
+            img src="static/event.jpg"
+            div
+              h3 DevCon 2014
+              div 26 – 28 сентября, Киев
+              div evCon – ежегодная конференция о разработке для всей платформы
+              .event_author Burton Fink
+
+    section.section-wrapper.p4#p4
+      article
+        .h1 Works
+
+        .works
+          a.work.lib href="#"
+            h3 jquery-handsontable
+            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
+
+          a.work href="#"
+            h3 jquery-handsontable
+            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
+
+          a.work href="#"
+            h3 jquery-handsontable
+            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
+
+          a.work.lib href="#"
+            h3 jquery-handsontable
+            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
+
+    section#p5.section-wrapper.p5
+      article
+        .h1 Contacts
+        .phones
+          h5 Call Us
+          div 068 322-34-71
+          div 096 707-29-00
+
+        form.feedback
+          h5 Or send a message
+          .fields
+            label for="f1" Имя
+            input id="f1" type="text"
+
+          .fields
+            label for="f2" E-mail
+            input id="f2" type="text"
+
+          .fields
+            label for="f3" Сообщение
+            textarea id="f3" cols="" rows="7"
+
+          input type="submit" class="bttn"
+footer
