@@ -1,0 +1,13 @@
+section#p3.section-wrapper.p3
+  article
+    .h1 Events
+    .events
+      each event in controller.model.events
+        a.event{{bind-attr href="event.url"}}
+          img{{bind-attr src="event.image"}}
+        div
+          h3 = event.title
+          div 26 – 28 сентября, Киев
+          div = event.description
+          .event_author Burton Fink
+
