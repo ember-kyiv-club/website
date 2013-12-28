@@ -40,7 +40,7 @@ User.FIXTURES = [
     nick_name:     "Aminov Vali",
     github:        "https://github.com/bortevik",
     total_commits: 507,
-    photo:        "assets/images/static/av.jpg"
+    email:         "bortevik@gmail.com"
   }
 ];
 

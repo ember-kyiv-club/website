@@ -5,18 +5,21 @@ view "section" class="p5"
       h5 Позвоните
       div 097 848-41-14
 
-    form.feedback
-      h5 Напишите
-      .fields
-        label for="f1" Имя
-        input id="f1" type="text"
+    if controller.model.isSent
+      p Send
+    else
+      form.feedback
+        h5 Напишите
+        .fields
+          label for="f1" Имя
+          Ember.TextField valueBinding="controller.model.name" id="f1" type="text"
 
-      .fields
-        label for="f2" E-mail
-        input id="f2" type="text"
+        .fields
+          label for="f2" E-mail
+          Ember.TextField valueBinding="controller.model.email" id="f2" type="text"
 
-      .fields
-        label for="f3" Сообщение
-        textarea id="f3" cols="" rows="7"
+        .fields
+          label for="f3" Сообщение
+          Ember.TextArea valueBinding="controller.model.message" id="f3" cols="" rows="7"
 
-      input type="submit" class="bttn"
+        input type="submit" class="bttn" click="submit"
