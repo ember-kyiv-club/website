@@ -1,9 +1,10 @@
 view "section" class="p1"
-  .logo
-  .socials
-    a.fb href="#"
-    a.tv href="#"
-    a.gl href="#"
+  .header
+    .logo
+    .socials
+      a.fb href="#"
+      a.tv href="#"
+      a.gl href="#"
 
   article
     .h1 Что здесь будет? Прямо сейчас ссылки
