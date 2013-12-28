@@ -18,13 +18,20 @@ User.FIXTURES = [
     nick_name:     "Evgeniy Kurtov",
     github:        "https://github.com/dirty-hippie",
     total_commits: 111,
-    avatar: "assets/images/static/av.jpg"
+    avatar:        "assets/images/static/av.jpg"
   },
   {
     id:            3,
     nick_name:     "Oleksandr Lapshyn",
     github:        "https://github.com/sudodoki",
     total_commits: 334,
+    avatar:        "assets/images/static/av.jpg"
+  },
+  {
+    id:            4,
+    nick_name:     "Aminov Vali",
+    github:        "https://github.com/bortevik",
+    total_commits: 507,
     avatar:        "assets/images/static/av.jpg"
   }
 ];
