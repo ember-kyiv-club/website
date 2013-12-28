@@ -2,107 +2,24 @@
   nav.mainmenu
     ul
       li.active
-        a href="#p1" о компании
+        a href="#p1" Kyiv Ember Club
       li
-        a href="#p2" услуги
+        a href="#p2" Команда
       li
-        a href="#p3" сертификаты
+        a href="#p3" События
       li
-        a href="#p4" партнеры и клиенты
+        a href="#p4" Проекты
       li
-        a href="#p5" контакты
+        a href="#p5" Контакты
   .swiper-wrapper
-    section.section-wrapper.p1#p1
-      .logo
-      .socials
-        a.fb href="#"
-        a.tv href="#"
-        a.gl href="#"
 
-      article
-        .h1 Что здесь будет? Прямо сейчас ссылки
-        .txt_block В поисках инструмента для написания своего простенького веб-приложения я наткнулся на JavaScript фреймворк ember.js – новый, интересный и бурно развивающийся. Материалы на нашем родном языке практически отсутствуют, да и на английском неполные и разбросаны в разных местах. И потому решил я создать сей бложик в помощь себе и другим для накопления и систематизации материалов по ember.js и дополнениям к нему (а их тоже уже довольно много)
-        a#p2.down_arr href="#"
+
+    partial "kyiv-ember-club"
 
     partial "team"
 
-    section#p3.section-wrapper.p3
-      article
-        .h1 Events
-        .events
-          a.event href="#"
-            img src="static/event.jpg"
-            div
-              h3 DevCon 2014
-              div 26 – 28 сентября, Киев
-              div evCon – ежегодная конференция о разработке для всей платформы
-              .event_author Burton Fink
+    partial "events"
+    partial "projects"
+    partial "contacts"
 
-          a.event href="#"
-            img src="static/event.jpg"
-            div
-              h3 DevCon 2014
-              div 26 – 28 сентября, Киев
-              div evCon – ежегодная конференция о разработке для всей платформы
-              .event_author Burton Fink
-          a.event href="#"
-            img src="static/event.jpg"
-            div
-              h3 DevCon 2014
-              div 26 – 28 сентября, Киев
-              div evCon – ежегодная конференция о разработке для всей платформы
-              .event_author Burton Fink
-
-          a.event href="#"
-            img src="static/event.jpg"
-            div
-              h3 DevCon 2014
-              div 26 – 28 сентября, Киев
-              div evCon – ежегодная конференция о разработке для всей платформы
-              .event_author Burton Fink
-
-    section.section-wrapper.p4#p4
-      article
-        .h1 Works
-
-        .works
-          a.work.lib href="#"
-            h3 jquery-handsontable
-            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-          a.work href="#"
-            h3 jquery-handsontable
-            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-          a.work href="#"
-            h3 jquery-handsontable
-            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-          a.work.lib href="#"
-            h3 jquery-handsontable
-            div Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery
-
-    section#p5.section-wrapper.p5
-      article
-        .h1 Contacts
-        .phones
-          h5 Call Us
-          div 068 322-34-71
-          div 096 707-29-00
-
-        form.feedback
-          h5 Or send a message
-          .fields
-            label for="f1" Имя
-            input id="f1" type="text"
-
-          .fields
-            label for="f2" E-mail
-            input id="f2" type="text"
-
-          .fields
-            label for="f3" Сообщение
-            textarea id="f3" cols="" rows="7"
-
-          input type="submit" class="bttn"
 footer

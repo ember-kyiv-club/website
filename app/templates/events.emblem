@@ -1,0 +1,34 @@
+section#p3.section-wrapper.p3
+  article
+    .h1 Events
+    .events
+      a.event href="#"
+        img src="static/event.jpg"
+        div
+          h3 DevCon 2014
+          div 26 – 28 сентября, Киев
+          div evCon – ежегодная конференция о разработке для всей платформы
+          .event_author Burton Fink
+
+      a.event href="#"
+        img src="static/event.jpg"
+        div
+          h3 DevCon 2014
+          div 26 – 28 сентября, Киев
+          div evCon – ежегодная конференция о разработке для всей платформы
+          .event_author Burton Fink
+      a.event href="#"
+        img src="static/event.jpg"
+        div
+          h3 DevCon 2014
+          div 26 – 28 сентября, Киев
+          div evCon – ежегодная конференция о разработке для всей платформы
+          .event_author Burton Fink
+
+      a.event href="#"
+        img src="static/event.jpg"
+        div
+          h3 DevCon 2014
+          div 26 – 28 сентября, Киев
+          div evCon – ежегодная конференция о разработке для всей платформы
+          .event_author Burton Fink
