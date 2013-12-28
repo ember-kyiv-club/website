@@ -4,11 +4,11 @@ section.section-wrapper.p2#p2
     .users
       each user in controller.model.users
         .usr
-          a.usr_av href="#"
+          a.usr_av{{bind-attr href="user.github"}} target="_blank"
             img{{bind-attr src="user.avatar"}}
           div
-            a.usr_name{{bind-attr href="user.github"}}
+            a.usr_name{{bind-attr href="user.github"}} target="_blank"
               = user.nick_name
-            a.usr_git{{bind-attr href="user.github"}}
+            a.usr_git{{bind-attr href="user.github"}} target="_blank"
               | profile
             .usr_commits {{user.total_commits}} коммитов
