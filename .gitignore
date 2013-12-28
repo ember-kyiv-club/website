@@ -13,3 +13,4 @@ vendor/*
 !/vendor/loader.js
 tmp/
 bower_components/
+coverage/

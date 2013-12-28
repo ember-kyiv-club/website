@@ -4,7 +4,7 @@ section.section-wrapper.p2#p2
     .users
       .usr
         a.usr_av href="#"
-          img src="static/av.jpg"
+          img src="assets/images/static/av.jpg"
         div
           a href="#" class="usr_name" Nick Cave
           a href="#" class="usr_git" overridden
@@ -12,21 +12,21 @@ section.section-wrapper.p2#p2
 
       .usr
         a href="#" class="usr_av"
-          img src="static/av.jpg"
+          img src="assets/images/static/av.jpg"
         div
           a href="#" class="usr_name" Nick Cave
           a href="#" class="usr_git" overridden
           .usr_commits 29 коммитов
       .usr
         a href="#" class="usr_av"
-          img src="static/av.jpg"
+          img src="assets/images/static/av.jpg"
         div
           a href="#" class="usr_name" Nick Cave
           a href="#" class="usr_git" overridden
           div class="usr_commits" 290 коммитов
       .usr
         a href="#" class="usr_av"
-          img src="static/av.jpg"
+          img src="assets/images/static/av.jpg"
         div
           a href="#" class="usr_name" Nick Cave
           a href="#" class="usr_git" overridden
