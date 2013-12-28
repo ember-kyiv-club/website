@@ -71,11 +71,9 @@ body {
 }
 .section-wrapper {
     width:100%;
-    height:750px;
     position:relative;
 }
-.section-wrapper > * { position:relative; z-index:1;}
-.bg:before {
+.section-wrapper:before {
     display:block;
     z-index:0;
     position:absolute;
@@ -86,15 +84,24 @@ body {
     bottom:0px;
     background:url(images/bg.png);
 }
-.p1 { background:url(images/p1.jpg) 50% no-repeat;
+.section-wrapper > * { position:relative; z-index:1;
+}
+.section-wrapper > article:after {
+    display:block;
+    width:100%;
+    height:20px;
+    content:'';}
+.section-wrapper > article {
+    overflow:hidden;}
+.p1 { background:url(images/p1.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p2 { background:url(images/p2.jpg) 50% no-repeat;
+.p2 { background:url(images/p2.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p3 { background:url(images/p3.jpg) 50% no-repeat;
+.p3 { background:url(images/p3.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p4 { background:url(images/p1.jpg) 50% no-repeat;
+.p4 { background:url(images/p1.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p5 { background:url(images/p2.jpg) 50% no-repeat;
+.p5 { background:url(images/p2.jpg) 0px 50% no-repeat;
     background-size:cover;}
 .bg {
     position:fixed;
@@ -103,13 +110,14 @@ body {
     background:url(images/p1.jpg) 50% no-repeat;
     background-size:cover
 }
-article { clear:both; margin:0 15%}
-.p1 article { margin:0 25%;}
+article { clear:both; margin:0 auto;
+    max-width:1200px}
+.p1 article { padding:0 100px;}
 .down_arr { display:block;
     margin:50px auto 0 auto;
-    width:260px;
-    height:80px;
-    background:url(images/sprite.png) -15px -163px;
+    width:270px;
+    height:85px;
+    background:url(images/sprite.png) -15px -160px;
     opacity:.8}
 .down_arr:hover{opacity:1}
 
@@ -194,18 +202,26 @@ h3 { font-size:2.5em}
 
 
 /*------------- EVENTS LIST ------------*/
-.event {
+a.event {
     float:left;
     width:48%;
     margin:0 2% 3% 0%;
     color:#fff;}
 .event:hover { text-decoration: none;}
+.event.past {
+    color: #aaa}
+.event.past	h3 + div, .event.past .event_date { text-decoration:line-through}
+.event .event_date { margin:0 0 20px 0;}
 .event > div { padding:3px 5px 5px 5px;
     height:150px;
     margin-left:152px;
     overflow:hidden;
     position:relative;}
-.event > div:after {
+.h1 + .event > div { height:auto; overflow:visible;}
+.event .bttn {
+    margin:20px 0 0 0;
+    font-size:120%;}
+a.event > div:after {
     content:'';
     display:block;
     position:absolute;
@@ -217,7 +233,11 @@ h3 { font-size:2.5em}
     background:url(images/trans.png);
     opacity:0;
 }
-.event:hover > div:after { opacity:1;}
+a.event:hover > div:after { opacity:1;}
+.event.past img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%);}
 .event img {
     display:block; float:left;
     width: 150px;}
@@ -269,6 +289,10 @@ h3 { font-size:2.5em}
 }
 .phones	{ width:35%; margin:0 10% 0 0;}
 .feedback { width:45%; margin:0 0 80px 0;}
+.feedback_txt { font-size:140%;
+    line-height:130%;
+    margin-left:60px;}
+.feedback_txt p { margin:3px 0;}
 .phones h5, .feedback h5 {
     font-size:180%;
     padding-bottom:20px;

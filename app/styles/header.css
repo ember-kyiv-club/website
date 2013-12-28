@@ -5,6 +5,10 @@
 /* ==========================================================================
    mainmenu
    ========================================================================== */
+.header {
+    min-width:745px;
+    max-width: 1200px;
+    margin:0 auto;}
 .mainmenu {
     position:fixed;
     bottom:0px;
@@ -14,12 +18,9 @@
     background:url(images/nav_bg.png);
 }
 .mainmenu ul {
-    min-width:745px;
-    max-width: 1200px;
     text-align:center;
     padding:0 0 0 100px;
     position:relative;
-    margin:0 auto;
 }
 .mainmenu ul:before {
     position:absolute;
@@ -99,9 +100,15 @@
     float:left;}
 
 .socials {
-    float:right;}
+    float:right;
+    margin:20px 10px 0 0;}
 .socials a {
     display:inline-block;
-    width:40px;
-    height:40px;
-    background-image: url(images/sprite.png);}	
+    width:42px;
+    height:42px;
+    background-image: url(images/sprite.png);
+    opacity:.7}
+.socials a:hover { opacity:1}
+.fb { background-position:-98px -110px;}
+.tv { background-position:-50px -110px;}
+.gl { background-position:0px -110px;}	

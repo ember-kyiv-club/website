@@ -1,0 +1,19 @@
+view "section" class="p3"
+  article
+    .h1 = model.title
+    .event
+      img{{bind-attr src="model.image"}}
+      div
+        .event_date = model.date
+        p = model.description
+        p = model.price
+        ul
+          each schedule in model.schedules
+            li
+              = schedule.time
+              = schedule.title
+              if schedule.autor
+                |&nbsp; Автор: &nbsp;
+                = schedule.autor
+
+      img{{bind-attr src="model.address"}}

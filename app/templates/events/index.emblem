@@ -3,7 +3,7 @@ view "section" class="p3"
     .h1 Events
     .events
       each event in controller.model
-        a.event{{bind-attr href="event.url"}}
+        link-to "events.show" event class="event"
           img{{bind-attr src="event.image"}}
           div
             h3 = event.title
