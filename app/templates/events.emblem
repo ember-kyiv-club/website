@@ -1,4 +1,4 @@
-section#p3.section-wrapper.p3
+view "section" class="p3"
   article
     .h1 Events
     .events

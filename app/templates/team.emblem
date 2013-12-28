@@ -1,4 +1,4 @@
-section.section-wrapper.p2#p2
+view "section" class="p2"
   article
     .h1 Team
     .users

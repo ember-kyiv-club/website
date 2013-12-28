@@ -37,9 +37,9 @@
     display: inline-block;
     text-align:center;
     vertical-align: top;
-    position:relative;
 }
-.mainmenu li.active:before {
+.mainmenu a { display:block; position:relative;}
+.mainmenu a.active:before {
     background: url(images/sprite.png) 50% 100% no-repeat;
     content:'';
     display:block;
@@ -50,10 +50,10 @@
     right: 0px;
     height: 8px;
 }
-.mainmenu li.active a {
+.mainmenu li a.active {
     color:#d53202;
 }
-.mainmenu li.active:hover a {
+.mainmenu li a.active:hover {
     color: #d53202;
 }
 .mainmenu li:hover {
@@ -104,4 +104,4 @@
     display:inline-block;
     width:40px;
     height:40px;
-    background-image: url(images/sprite.png);}
+    background-image: url(images/sprite.png);}	

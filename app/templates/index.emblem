@@ -1,4 +1,4 @@
-section.section-wrapper.p1#p1
+view "section" class="p1"
   .logo
   .socials
     a.fb href="#"

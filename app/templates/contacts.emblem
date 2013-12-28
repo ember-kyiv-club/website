@@ -1,4 +1,4 @@
-section#p5.section-wrapper.p5
+view "section" class="p5"
   article
     .h1 Contacts
     .phones

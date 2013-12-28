@@ -11,6 +11,7 @@ spec/ember-admin_spec.js
 .sass-cache/
 vendor/*
 !/vendor/loader.js
+!/vendor/md5.js
 tmp/
 bower_components/
 coverage/

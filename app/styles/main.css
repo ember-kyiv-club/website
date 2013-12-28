@@ -24,14 +24,14 @@ aside, .fm_i, .simplesearch, nav, .side_filters_caption {
     transition: margin .2s ease-out;
 }
 /*--all--*/
-.sub1, .side_filter_list li a, .fm_i > p, .p_name, nav a, .usr_av img, .bttn  {
+.sub1, .side_filter_list li a, .fm_i > p, .p_name, nav a, .usr_av img, .bttn, input, textarea  {
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
 /*--opacity--*/
-.bkmrk, .event > div:after, .work:after  {
+.bkmrk, .event > div:after, .work:after, .down_arr  {
     -webkit-transition: opacity .2s ease-out;
     -moz-transition: opacity .2s ease-out;
     -o-transition: opacity .2s ease-out;
@@ -75,7 +75,7 @@ body {
     position:relative;
 }
 .section-wrapper > * { position:relative; z-index:1;}
-.section-wrapper:before {
+.bg:before {
     display:block;
     z-index:0;
     position:absolute;
@@ -96,14 +96,22 @@ body {
     background-size:cover;}
 .p5 { background:url(images/p2.jpg) 50% no-repeat;
     background-size:cover;}
-
+.bg {
+    position:fixed;
+    top:0px; bottom:0px;
+    left:0px; right:0px;
+    background:url(images/p1.jpg) 50% no-repeat;
+    background-size:cover
+}
 article { clear:both; margin:0 15%}
 .p1 article { margin:0 25%;}
 .down_arr { display:block;
     margin:50px auto 0 auto;
     width:260px;
     height:80px;
-    background:url(images/sprite.png) -10px -160px;}
+    background:url(images/sprite.png) -15px -163px;
+    opacity:.8}
+.down_arr:hover{opacity:1}
 
 /*======================================  CONTENT  =============================*/
 .pic_fluid {
@@ -260,7 +268,7 @@ h3 { font-size:2.5em}
     float:left;
 }
 .phones	{ width:35%; margin:0 10% 0 0;}
-.feedback { width:45%; margin:0 0 60px 0;}
+.feedback { width:45%; margin:0 0 80px 0;}
 .phones h5, .feedback h5 {
     font-size:180%;
     padding-bottom:20px;
