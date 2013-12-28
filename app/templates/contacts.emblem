@@ -6,7 +6,7 @@ view "section" class="p5"
       div 097 848-41-14
 
     if controller.model.isSent
-      p Send
+      p Спасибо!
     else
       form.feedback
         h5 Напишите
