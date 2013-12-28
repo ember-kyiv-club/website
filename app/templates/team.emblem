@@ -2,32 +2,13 @@ section.section-wrapper.p2#p2
   article
     .h1 Team
     .users
-      .usr
-        a.usr_av href="#"
-          img src="assets/images/static/av.jpg"
-        div
-          a href="#" class="usr_name" Nick Cave
-          a href="#" class="usr_git" overridden
-          .usr_commits 175 коммитов
-
-      .usr
-        a href="#" class="usr_av"
-          img src="assets/images/static/av.jpg"
-        div
-          a href="#" class="usr_name" Nick Cave
-          a href="#" class="usr_git" overridden
-          .usr_commits 29 коммитов
-      .usr
-        a href="#" class="usr_av"
-          img src="assets/images/static/av.jpg"
-        div
-          a href="#" class="usr_name" Nick Cave
-          a href="#" class="usr_git" overridden
-          div class="usr_commits" 290 коммитов
-      .usr
-        a href="#" class="usr_av"
-          img src="assets/images/static/av.jpg"
-        div
-          a href="#" class="usr_name" Nick Cave
-          a href="#" class="usr_git" overridden
-          .usr_commits 78 коммитов
+      each user in controller.model.users
+        .usr
+          a.usr_av href="#"
+            img{{bind-attr src="user.avatar"}}
+          div
+            a.usr_name{{bind-attr href="user.github"}}
+              = user.nick_name
+            a.usr_git{{bind-attr href="user.github"}}
+              | profile
+            .usr_commits {{user.total_commits}} коммитов

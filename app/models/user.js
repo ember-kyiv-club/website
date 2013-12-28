@@ -12,6 +12,13 @@ User.FIXTURES = [
     github:        "https://github.com/OpakAlex",
     total_commits: 2000,
     avatar:        "assets/images/static/av.jpg"
+  },
+  {
+    id:            2,
+    nick_name:     "Evgeniy Kurtov",
+    github:        "https://github.com/dirty-hippie",
+    total_commits: 111,
+    avatar: "assets/images/static/av.jpg"
   }
 ];
 
