@@ -2,12 +2,11 @@ view "section" class="p5"
   article
     .h1 Contacts
     .phones
-      h5 Call Us
-      div 068 322-34-71
-      div 096 707-29-00
+      h5 Позвоните
+      div 097 848-41-14
 
     form.feedback
-      h5 Or send a message
+      h5 Напишите
       .fields
         label for="f1" Имя
         input id="f1" type="text"
