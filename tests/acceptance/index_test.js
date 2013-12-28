@@ -14,6 +14,6 @@ test('index renders', function(){
 
   visit('/').then(function(){
     var title = find('article .h1');
-    equal(title.text(), 'Что здесь будет? Прямо сейчас ссылки');
+    equal(title.text(), 'Клуб разработчиков амбициозных веб приложений');
   });
 });
