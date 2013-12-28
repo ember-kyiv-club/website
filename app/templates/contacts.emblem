@@ -1,0 +1,23 @@
+section#p5.section-wrapper.p5
+  article
+    .h1 Contacts
+    .phones
+      h5 Call Us
+      div 068 322-34-71
+      div 096 707-29-00
+
+    form.feedback
+      h5 Or send a message
+      .fields
+        label for="f1" Имя
+        input id="f1" type="text"
+
+      .fields
+        label for="f2" E-mail
+        input id="f2" type="text"
+
+      .fields
+        label for="f3" Сообщение
+        textarea id="f3" cols="" rows="7"
+
+      input type="submit" class="bttn"
