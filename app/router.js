@@ -4,7 +4,7 @@ Router.map(function() {
   this.route('index', {path: "/"});
   this.route('team');
   this.route('events');
-  this.route('works');
+  this.route('projects');
   this.route('contacts');
 });
 
