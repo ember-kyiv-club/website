@@ -13,11 +13,8 @@
         a href="#p5" Контакты
   .swiper-wrapper
 
-
     partial "kyiv-ember-club"
-
     partial "team"
-
     partial "events"
     partial "projects"
     partial "contacts"
