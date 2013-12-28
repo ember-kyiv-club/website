@@ -1,22 +1,12 @@
-.main_wrap.swiper-container
-  nav.mainmenu
-    ul
-      li.active
-        a href="#p1" Kyiv Ember Club
-      li
-        a href="#p2" Команда
-      li
-        a href="#p3" События
-      li
-        a href="#p4" Проекты
-      li
-        a href="#p5" Контакты
-  .swiper-wrapper
+section.section-wrapper.p1#p1
+  .logo
+  .socials
+    a.fb href="#"
+    a.tv href="#"
+    a.gl href="#"
 
-    partial "kyiv-ember-club"
-    partial "team"
-    partial "events"
-    partial "projects"
-    partial "contacts"
-
-footer
+  article
+    .h1 Что здесь будет? Прямо сейчас ссылки
+    .txt_block В поисках инструмента для написания своего простенького веб-приложения я наткнулся на JavaScript фреймворк ember.js – новый, интересный и бурно развивающийся. Материалы на нашем родном языке практически отсутствуют, да и на английском неполные и разбросаны в разных местах. И потому решил я создать сей бложик в помощь себе и другим для накопления и систематизации материалов по ember.js и дополнениям к нему (а их тоже уже довольно много)
+    link-to "team" class="down_arr"
+      |

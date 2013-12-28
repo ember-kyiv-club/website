@@ -2,7 +2,7 @@ section.section-wrapper.p2#p2
   article
     .h1 Team
     .users
-      each user in controller.model.users
+      each user in controller.model
         .usr
           a.usr_av{{bind-attr href="user.github"}} target="_blank"
             img{{bind-attr src="user.avatar"}}

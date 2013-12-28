@@ -19,6 +19,13 @@ User.FIXTURES = [
     github:        "https://github.com/dirty-hippie",
     total_commits: 111,
     avatar: "assets/images/static/av.jpg"
+  },
+  {
+    id:            3,
+    nick_name:     "Oleksandr Lapshyn",
+    github:        "https://github.com/sudodoki",
+    total_commits: 334,
+    avatar:        "assets/images/static/av.jpg"
   }
 ];
 

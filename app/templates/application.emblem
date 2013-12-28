@@ -1,2 +1,23 @@
 .page_wrap
-  == outlet
+  .main_wrap.swiper-container
+    nav.mainmenu
+      ul
+        li
+          link-to "index"
+            |Kyiv Ember Club
+        li
+          link-to "team"
+            | Команда
+        li
+          link-to "events"
+            | События
+        li
+          link-to "works"
+            | Проекты
+        li
+          link-to "contacts"
+            | Контакты
+    .swiper-wrapper
+      == outlet
+
+footer
