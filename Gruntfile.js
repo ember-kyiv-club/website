@@ -158,6 +158,8 @@ module.exports = function(grunt) {
                      'htmlmin:dist' // Removes comments and whitespace
                      ]));
 
+  grunt.loadNpmTasks('grunt-gh-pages');
+
   // Parallelize most of the build process
   _.merge(config, {
     concurrent: {

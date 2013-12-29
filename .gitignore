@@ -15,3 +15,5 @@ vendor/*
 tmp/
 bower_components/
 coverage/
+dist/
+.grunt/
