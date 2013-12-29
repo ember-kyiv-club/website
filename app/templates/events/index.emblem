@@ -7,6 +7,6 @@ view "section" class="p3"
           img{{bind-attr src="event.image"}}
           div
             h3 = event.title
-            div 26 – 28 сентября, Киев
+            div = event.date
             div = event.description
-            .event_author Burton Fink
+            /.event_author Burton Fink
