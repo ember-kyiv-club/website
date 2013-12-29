@@ -10,11 +10,11 @@ view "section" class="p5"
     else
       form.feedback
         h5 Напишите
-        .fields
+        /.fields
           label for="f1" Имя
           Ember.TextField valueBinding="controller.model.name" id="f1" type="text"
 
-        .fields
+        /.fields
           label for="f2" E-mail
           Ember.TextField valueBinding="controller.model.email" id="f2" type="text"
 
