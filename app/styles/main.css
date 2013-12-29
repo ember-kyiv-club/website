@@ -215,6 +215,12 @@ a.event {
 .event:hover { text-decoration: none;}
 .event.past {
     color: #aaa}
+a.event time {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0 5px;
+}
 .event.past	h3 + div, .event.past .event_date { text-decoration:line-through}
 .event .event_date { margin:0 0 20px 0;}
 .event > div { padding:3px 5px 5px 5px;
