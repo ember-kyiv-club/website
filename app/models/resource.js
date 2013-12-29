@@ -99,7 +99,7 @@ Resource.FIXTURES = [
     id:          12,
     url:         "http://emberenos.com/",
     title:       "Еженедельные интервью из мира Ember",
-    type:        'intro',
+    type:        'list',
     date:        '29-12-13',
     description: 'Куда бежать и что дcелать?'
   }
