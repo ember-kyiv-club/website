@@ -4,7 +4,10 @@ view "section" class="p5"
     .phones
       h5 Позвоните
       div 097 848-41-14
-
+    .skype
+      h5
+        a href='skype:?chat&blob=RzaJNYUPGvv2L3ifAfg4ndtkG_i_iQQ5MRkwvOoXeFaBw0G28XZJXdeiSYqQ1rAfA0Rap4QEnbJS-Gl1PchiDZX-oC5InUVPi4kRhmiURPByU6S-mTBGsD3UDeMi5mNiajhf201I'
+          | Skype-чат
     if controller.model.isSent
       p Спасибо!
     else

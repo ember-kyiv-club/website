@@ -6,7 +6,7 @@
     font-style: normal;
 }
 .page_wrap > header, .side_filters_caption strong, .side_filter > strong, .fm_i, .bttn, .price_tag, .tovar_title strong, .header_phone,
-h1, h2, h3, h4, h5, .usr_name, form, .addr, .h1, .txt_block, .phones
+h1, h2, h3, h4, h5, .usr_name, form, .addr, .h1, .txt_block, .phones, .skype
 { font-family: 'ElektraLight', Helvetica, sans-serif}
 
 html,button,input,select,textarea {    color: #222;}
@@ -295,20 +295,20 @@ a.event:hover > div:after { opacity:1;}
 }
 
 /*------------- CONTACTS ------------*/
-.phones, .feedback {
+.skype, .phones, .feedback {
     float:left;
 }
-.phones	{ width:35%; margin:0 10% 0 0;}
+.skype, .phones	{ width:35%; margin:0 10% 0 0;}
 .feedback { width:45%; margin:0 0 80px 0;}
 .feedback_txt { font-size:140%;
     line-height:130%;
     margin-left:60px;}
 .feedback_txt p { margin:3px 0;}
-.phones h5, .feedback h5 {
+.skype h5, .phones h5, .feedback h5 {
     font-size:180%;
     padding-bottom:20px;
     position:relative;}
-.phones h5:before, .feedback h5:before{
+.skype h5:before, .phones h5:before, .feedback h5:before{
     background-image:url(images/sprite.png);
     position: relative;
     top:-13px;
@@ -319,6 +319,7 @@ a.event:hover > div:after { opacity:1;}
     content:'';
     float:left
 }
+.skype h5:before { background-position: -233px -257px;}
 .phones h5:before { background-position: -177px -257px;}
 .feedback h5:before { background-position: -177px -307px;}
 .phones div { margin:0 0 15px 60px;
