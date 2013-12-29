@@ -17,5 +17,5 @@ view "section" class="p1"
         встречах, курсах и хакатонах на которых мы будем рады Вас видеть!
       p.center EMBER.JS IS FREE, OPEN SOURCE AND ALWAYS WILL BE.
 
-    link-to "team" class="down_arr"
+    link-to "events" class="down_arr"
       |
