@@ -159,6 +159,7 @@ module.exports = function(grunt) {
                      ]));
 
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.registerTask('deploy', ['dist', 'gh-pages']);
 
   // Parallelize most of the build process
   _.merge(config, {
