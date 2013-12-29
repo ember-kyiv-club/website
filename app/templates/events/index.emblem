@@ -7,6 +7,6 @@ view "section" class="p3"
           img{{bind-attr src="event.image"}}
           div
             h3 = event.title
-            div = event.date
-            div = event.description
+            time = event.date
+            div = event.shortDescription
             /.event_author Burton Fink
