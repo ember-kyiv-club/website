@@ -13,7 +13,7 @@ test('index renders', function(){
   expect(1);
 
   visit('/').then(function(){
-    var title = find('article .h1');
-    equal(title.text(), 'Клуб разработчиков амбициозных веб приложений');
+    var title = find('article > .h1');
+    equal(title.text(), 'Ember.js - framework for creating  ambitious  web applications.');
   });
 });

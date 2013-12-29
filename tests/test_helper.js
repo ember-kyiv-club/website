@@ -6,7 +6,9 @@ window.startApp          = require('appkit/tests/helpers/start_app')['default'];
 window.isolatedContainer = require('appkit/tests/helpers/isolated_container')['default'];
 
 //TODO: write an user model test with appropriate mock
-window.md5 = function () {return "";}
+window.md5 = function () {
+  return "";
+};
 
 function exists(selector) {
   return !!find(selector).length;
