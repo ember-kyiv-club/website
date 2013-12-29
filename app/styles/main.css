@@ -493,4 +493,13 @@ textarea {resize: vertical;}
     clear:both}
 .map small { display:none;}
 .map:after { display:block; width:100%; content:''; clear:both;}
+.fork{
+    z-index: 1000;
+    height: 149px;
+    width: 149px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 0px;
+}
 
