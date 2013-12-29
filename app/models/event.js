@@ -11,7 +11,7 @@ var Event = DS.Model.extend({
 
   address: function(){
     if (this.get('lat') && this.get('lon'))
-      return "https://maps.google.com/?ie=UTF8&amp;ll=%@,%@&z=12&output=embed".fmt(this.get('lat'), this.get('lon'))
+      return "https://maps.google.com/?ie=UTF8&amp;ll=%@,%@&z=12&output=embed".fmt(this.get('lat'), this.get('lon'));
   }.property('lat', 'lon')
 });
 

@@ -3,6 +3,6 @@ export default Ember.Route.extend({
     return Ember.RSVP.hash({
       intro: this.get('store').find('resource', {type: 'intro'}),
       lists: this.get('store').find('resource', {type: 'list'})
-    })
+    });
   }
 });
