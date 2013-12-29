@@ -1,5 +1,8 @@
 export default Ember.Route.extend({
   model: function(){
-    return this.get('store').find('resource');
+    return Ember.RSVP.hash({
+      intro: this.get('store').find('resource', {type: 'intro'}),
+      lists: this.get('store').find('resource', {type: 'list'})
+    })
   }
 });

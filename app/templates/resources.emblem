@@ -1,7 +1,14 @@
 view "section" class="p6"
   article
-    .h1 Ресурсы
+    h3.h1 С чего начать?
     ul
-      each resource in controller.model
+      each resource in controller.model.intro
         li.resource
           a{{bind-attr href="resource.url"}} target="_blank"=resource.title
+  article
+    h3.h1 Быть в курсе Ember новостей
+    ul
+      each resource in controller.model.lists
+        li.resource
+          a{{bind-attr href="resource.url"}} target="_blank"=resource.title
+
