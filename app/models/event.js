@@ -17,7 +17,7 @@ var Event = DS.Model.extend({
   tweet_text: function(){
     var full_title = this.get('title');
     var formatted_title = full_title.length <= 54 ? full_title : full_title.substring(0, 51) + "...";
-    return "Присоединяйтесь ко мне на \"" + formatted_title +"\" " + window.location.href;
+    return "Присоединяйтесь ко мне на \"" + formatted_title +"\"";
   }.property()
 });
 
