@@ -5,7 +5,7 @@ view "section" class="p3"
       img{{bind-attr src="model.image"}}
       div
         .tweet-event
-          a href="http://twitter.com/share" class="twitter-share-button" data-text=model.tweet_text data-via="emberjs_kyiv" data-lang="ru"  data-hashtags="emberjs" Твитнуть
+          a href="https://twitter.com/share" class="twitter-share-button" data-text=model.tweet_text data-url="http://goo.gl/3xJTFV" data-via="emberjs_kyiv" data-lang="ru" data-hashtags="emberjs" Твитнуть
         .event_date = model.date
         p = model.description
         p = model.price
