@@ -159,7 +159,7 @@ module.exports = function(grunt) {
                      ]));
 
   grunt.loadNpmTasks('grunt-gh-pages');
-  grunt.registerTask('deploy', ['dist', 'gh-pages']);
+  grunt.registerTask('deploy', ['dist', 'createCnameForGithubPages', 'gh-pages']);
 
   // Parallelize most of the build process
   _.merge(config, {
@@ -234,6 +234,10 @@ module.exports = function(grunt) {
   grunt.registerTask('createResultDirectory', function() {
     grunt.file.mkdir('tmp/result');
   });
+
+    grunt.registerTask('createCnameForGithubPages', function() {
+        grunt.file.write('dist/CNAME', 'CNAME ember-club.kiev.ua')
+    });
 
   grunt.initConfig(config);
 };
