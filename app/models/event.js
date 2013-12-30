@@ -12,7 +12,13 @@ var Event = DS.Model.extend({
   address: function(){
     if (this.get('lat') && this.get('lon'))
       return "https://maps.google.com/?ie=UTF8&amp;ll=%@,%@&z=12&output=embed".fmt(this.get('lat'), this.get('lon'));
-  }.property('lat', 'lon')
+  }.property('lat', 'lon'),
+
+  tweet_text: function(){
+    var full_title = this.get('title');
+    var formatted_title = full_title.length <= 54 ? full_title : full_title.substring(0, 51) + "...";
+    return "Присоединяйтесь ко мне на \"" + formatted_title +"\" " + window.location.href;
+  }.property()
 });
 
 Event.FIXTURES = [
