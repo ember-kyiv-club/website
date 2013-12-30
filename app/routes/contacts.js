@@ -5,7 +5,7 @@ export default Ember.Route.extend({
       var controller = this.get('controller');
       if (!Ember.isEmpty(controller.get('model.email')) && !Ember.isEmpty(controller.get('model.message'))){
         controller.set('model.isSent', true);
-        window.open("mailto:%@?subject=Ember Kyiv Club&body=%@".fmt("ember-kyiv-club@gmail.com",
+        window.open("mailto:%@?subject=Ember Kyiv Club&body=%@".fmt("emberjs.kyiv@gmail.com",
           controller.get('model.message')));
       }
     }
