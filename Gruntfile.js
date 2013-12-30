@@ -236,7 +236,7 @@ module.exports = function(grunt) {
   });
 
     grunt.registerTask('createCnameForGithubPages', function() {
-        grunt.file.write('dist/CNAME', 'CNAME ember-club.kiev.ua')
+        grunt.file.write('dist/CNAME', 'ember-club.kiev.ua')
     });
 
   grunt.initConfig(config);
