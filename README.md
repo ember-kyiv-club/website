@@ -3,5 +3,10 @@
 ### Run local:
 
 `grunt test`
+
 `grunt server`
 
+
+# Contribution
+
+[See `CONTRIBUTING.md`](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md)
