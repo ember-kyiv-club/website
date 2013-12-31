@@ -11,7 +11,8 @@ module.exports = {
       cwd: 'tmp/javascript/tests/',
       src: '**/*.js',
       dest: 'tmp/transpiled/tests/'
-    }]
+    }],
+    options: { force: true }
   },
   "app": {
     type: 'amd',
