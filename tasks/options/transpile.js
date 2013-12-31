@@ -24,6 +24,7 @@ module.exports = {
       cwd: 'tmp/javascript/app/',
       src: '**/*.js',
       dest: 'tmp/transpiled/app/'
-    }]
+    }],
+    options: { force: true }
   }
 };
