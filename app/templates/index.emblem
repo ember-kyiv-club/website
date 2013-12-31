@@ -3,7 +3,7 @@ view "section" class="p1"
     .logo
     .socials
       /a.fb href="#"
-      a.tv href="#"
+      a.tv href="https://twitter.com/KyivEmberJS"  target="_blank"
       /a.gl href="#"
 
   article
