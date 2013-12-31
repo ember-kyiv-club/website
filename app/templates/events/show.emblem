@@ -5,7 +5,7 @@ view "section" class="p3"
       img{{bind-attr src="model.image"}}
       div
         .tweet-event
-          twitter-share data-text=model.tweet_text data-size="large" data-hashtags="emberjs emberjskyiv"
+          twitter-share data-text=model.tweet_text data-size="large" data-hashtags="emberjs,emberjskyiv"
             |Твиттнуть
 
         .event_date = model.date
