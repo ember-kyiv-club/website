@@ -1,6 +1,23 @@
-module("App.Employee");
+var App;
+var store;
 
-var base_tweet_text = "Присоединяйтесь ко мне на \"%%\" https://t.co/hT2DQGS1ac #emberjs с помощью @emberjs_kyiv";
+module('unit tests: Event Model', {
+  setup: function(){
+    App = startApp();
+    store = App.__container__.lookup('store:main');
+  },
+  teardown: function() {
+    Ember.run(App, 'destroy');
+  }
+});
+
 test('generate tweet text with short title', function(){
-  var short_title = 'this text is only forty two symbols length';
+  expect(1);
+  var record;
+
+  Ember.run(function(){
+    record = store.createRecord('event', {title: 'this text is only forty two symbols length'});
+  });
+
+  equal(record.get('tweet_text'), "Присоединяйтесь ко мне на \"this text is only forty two symbols length\"")
 });
