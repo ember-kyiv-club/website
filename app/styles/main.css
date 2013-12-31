@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ElektraLight';
-    src: url('../fonts/ElektraLight.eot');
-    src: local('☺'), url('../fonts/ElektraLight.woff') format('woff'), url('../fonts/ElektraLight.ttf') format('truetype'), url('../fonts/ElektraLight.svg') format('svg');
+    src: url('fonts/ElektraLight.eot');
+    src: local('☺'), url('fonts/ElektraLight.woff') format('woff'), url('fonts/ElektraLight.ttf') format('truetype'), url('fonts/ElektraLight.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
