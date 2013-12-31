@@ -9,4 +9,4 @@
 
 # Contribution
 
-[See `CONTRIBUTING.md`](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md)
+[See `CONTRIBUTING.md`](https://github.com/ember-kyiv-club/ember-kyiv-club-site/blob/master/CONTRIBUTING.md)
