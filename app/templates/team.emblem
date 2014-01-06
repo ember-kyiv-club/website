@@ -2,13 +2,12 @@ view "section" class="p2"
   article
     .h1 Команда
     .users
-      each user in controller.model
+      each user in model
         .usr
-          a.usr_av{{bind-attr href="user.github"}} target="_blank"
-            img{{bind-attr src="user.avatar"}}
+          a class="usr_av"  href=user.github target="_blank"
+            img src=user.avatar
           div
-            a.usr_name{{bind-attr href="user.github"}} target="_blank"
-              = user.nick_name
-            a.usr_git{{bind-attr href="user.github"}} target="_blank"
+            a class="usr_name" href=user.github target="_blank": user.nick_name
+            a class="usr_git"  href=user.github target="_blank"
               | profile
             .usr_commits {{user.total_commits}} коммитов
