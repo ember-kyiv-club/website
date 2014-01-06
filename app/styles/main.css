@@ -225,7 +225,7 @@ a.event time {
 .event .event_date { margin:0 0 20px 0;}
 .event > div { padding:3px 5px 5px 5px;
     height:150px;
-    margin-left:152px;
+    margin-left: 200px;
     overflow:hidden;
     position:relative;}
 .h1 + .event > div { height:auto; overflow:visible;}
