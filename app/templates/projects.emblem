@@ -3,8 +3,8 @@ view "section" class="p4"
     .h1 Проекты
 
     .works
-      each project in controller.model
-        a.work.lib{{bind-attr href="project.link"}}
+      each project in model
+        a class="work lib" href=project.link
           h3 = project.name
           div = project.description
 

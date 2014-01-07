@@ -3,13 +3,13 @@ view "section" class="p3"
     .h1 = model.title
     .event
       img{{bind-attr src="model.image"}}
-      div
+      div.event-description
         .tweet-event
           twitter-share data-text=model.tweet_text data-size="large" data-hashtags="emberjs,kyivemberjs"
             |Твиттнуть
 
         .event_date = model.date
-        p = model.description
+        p {{{model.description}}}
         p = model.price
         ul
           each schedule in model.schedules
