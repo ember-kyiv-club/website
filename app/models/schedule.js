@@ -12,13 +12,19 @@ Schedule.FIXTURES = [
   },
   {
     id:          2,
-    title:       "19.30 - 19.45 Миссия, формат и перспективы клуба",
+    title:       "19.30 - 19.45 Вступительное слово о Клубе",
     autor:       "Yevhenii Kurtov"
   },
 
   {
     id:          3,
     title:       "19.45 - 20.15 Ember.js - инструмент быстрого прототипирования",
+    autor:       "Alex Opak"
+  },
+
+  {
+    id:          4,
+    title:       "20.15 - 20.45 Ember-admin, Ember.js и open-source",
     autor:       "Alex Opak"
   }
 ];
