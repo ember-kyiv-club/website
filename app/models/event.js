@@ -4,14 +4,15 @@ var Event = DS.Model.extend({
   shortDescription: DS.attr('string'),
   description:      DS.attr('string'),
   image:            DS.attr('string'),
+  address:            DS.attr('string'),
   schedules:        DS.hasMany('schedule', {async: true}),
   lat:              DS.attr('number'),
   lon:              DS.attr('number'),
 
 
-  address: function(){
+  coords: function(){
     if (this.get('lat') && this.get('lon'))
-      return "https://maps.google.com/?ie=UTF8&amp;ll=%@,%@&z=12&output=embed".fmt(this.get('lat'), this.get('lon'));
+      return "https://maps.google.com/?ie=UTF8&amp;&ll=%@,%@&z=16&output=embed&iwloc=A".fmt(this.get('lat'), this.get('lon'));
   }.property('lat', 'lon'),
 
   tweet_text: function(){
@@ -31,9 +32,10 @@ Event.FIXTURES = [
                       "Первая киевская встреча разработчиков использующих Ember.js. Обсуждение open source проектов с использованием Ember.js, презентация Ember-Admin." +
                       "Рассмотрение Ember.js в качестве платформы для быстрого протитипирования web решений.</br>",
     image:            "assets/images/static/event.jpg",
-    schedules:   [1,2,3,4]
-//    lat:         45.375905,
-//    lon:         36.033998
+    schedules:   [1,2,3,4],
+    lat:         50.425045,
+    lon:         30.506747,
+    address:     "ул. Николая Гринченка, 2/1 - киевский офис Global Logic"
   }
 ];
 
