@@ -26,6 +26,11 @@ Schedule.FIXTURES = [
     id:          4,
     title:       "13.15 - 13.45 Ember-admin, Ember.js и open-source",
     autor:       "Alex Opak"
+  },
+  {
+    id:          5,
+    title:       "13.45 - 15.00 Круглый стол: знакомство, обсуждения, обмен опытом. По-желанию можно попрограммировать и покушать пиццу",
+    autor:       "Alex Opak"
   }
 ];
 

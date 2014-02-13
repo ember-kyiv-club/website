@@ -32,7 +32,7 @@ Event.FIXTURES = [
                       "Первая киевская встреча разработчиков использующих Ember.js. Обсуждение open source проектов с использованием Ember.js, презентация Ember-Admin." +
                       "Рассмотрение Ember.js в качестве платформы для быстрого протитипирования web решений.</br>",
     image:            "assets/images/static/event.jpg",
-    schedules:   [1,2,3,4],
+    schedules:   [1,2,3,4,5],
     lat:         50.425045,
     lon:         30.506747,
     address:     "ул. Николая Гринченка, 2/1 - киевский офис Global Logic"
