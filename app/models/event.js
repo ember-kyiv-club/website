@@ -5,6 +5,7 @@ var Event = DS.Model.extend({
   description:      DS.attr('string'),
   image:            DS.attr('string'),
   address:            DS.attr('string'),
+  addressDescription: DS.attr('string'),
   schedules:        DS.hasMany('schedule', {async: true}),
   lat:              DS.attr('number'),
   lon:              DS.attr('number'),
@@ -12,7 +13,7 @@ var Event = DS.Model.extend({
 
   coords: function(){
     if (this.get('lat') && this.get('lon'))
-      return "https://maps.google.com/?ie=UTF8&amp;&ll=%@,%@&z=16&output=embed&iwloc=A".fmt(this.get('lat'), this.get('lon'));
+      return "https://maps.google.com/?ie=UTF8&amp;&q=%@&ll=%@,%@&z=16&output=embed&iwloc=A".fmt(this.get('address'),this.get('lat'), this.get('lon'));
   }.property('lat', 'lon'),
 
   tweet_text: function(){
@@ -35,7 +36,8 @@ Event.FIXTURES = [
     schedules:   [1,2,3,4,5],
     lat:         50.425045,
     lon:         30.506747,
-    address:     "ул. Николая Гринченка, 2/1 - киевский офис Global Logic"
+    address:     "ул. Николая Гринченка, 2/1, Global Logic",
+    addressDescription: "ул. Николая Гринченка, 2/1 - киевский офис Global Logic"
   }
 ];
 

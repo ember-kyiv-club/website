@@ -19,7 +19,7 @@ view "section" class="p3"
               if schedule.autor
                 |&nbsp; Автор: &nbsp;
                 = schedule.autor
-        p = model.address
+        p = model.addressDescription
         if model.coords
           .map
             iframe{{bind-attr src="model.coords"}} width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
