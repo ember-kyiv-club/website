@@ -1,0 +1,23 @@
+{{#view "section" class="p5"}}
+    <article>
+        <div class="h1">Контакты</div>
+        <div class="phones">
+            <h5>Позвоните</h5>
+            <div>097 848-41-14</div>
+        </div>
+        {{#if controller.model.isSent}}
+            <p>Спасибо!</p>
+        {{else}}
+            <form class="feedback">
+                <h5>Напишите</h5>
+                <div class="fields">
+                    <label for="f3">Сообщение</label>
+                    {{textarea value=controller.model.message id="f3" cols="" rows="7"}}
+                </div>
+                <input type="submit" class="bttn" click="submit">
+            </form>
+        {{/if}}
+
+
+    </article>
+{{/view}}

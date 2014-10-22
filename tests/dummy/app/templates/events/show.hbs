@@ -1,0 +1,40 @@
+{{#view "section" class="p3"}}
+    <article>
+        <div class="h1">
+            {{model.title}}
+        </div>
+        <div class="event">
+            <img {{bind-attr src=model.image}}>
+          <div class="event-description">
+              <div class="tweet-event">
+                {{twitter-share data-text=model.tweet_text data-size="large" data-hashtags="emberjs,kyivemberjs"}}
+              </div>
+              <div class="event_date">
+                {{model.date}}
+              </div>
+              <p>{{{model.description}}}</p>
+              <p>{{model.price}}</p>
+              <ul>
+                  {{#each schedule in model.schedules}}
+                    <li>
+                        {{schedule.time}}
+                        {{schedule.title}}
+                        {{#if schedule.autor}}
+                        &nbsp; Автор: &nbsp;
+                        {{schedule.autor}}
+                        {{/if}}
+                    </li>
+                  {{/each}}
+              </ul>
+              <p>
+                  {{model.addressDescription}}
+              </p>
+              {{#if model.coords}}
+                  <div class="map">
+                      <iframe {{bind-attr src="model.coords"}} width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  </div>
+              {{/if}}
+          </div>
+        </div>
+    </article>
+{{/view}}

@@ -1,0 +1,114 @@
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+/* ==========================================================================
+   mainmenu
+   ========================================================================== */
+.header {
+    min-width:745px;
+    max-width: 1200px;
+    margin:0 auto;}
+.mainmenu {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index: 100;
+    background:url(images/nav_bg.png);
+}
+.mainmenu ul {
+    text-align:center;
+    padding:0 0 0 100px;
+    position:relative;
+}
+.mainmenu ul:before {
+    position:absolute;
+    top: 0px;
+    left:0px;
+    content:'';
+    display:block;
+    width:150px;
+    height:66px;
+    background:url(images/sprite.png) -150px -92px;
+}
+.mainmenu li{
+    list-style-type: none;
+    float: none;
+    display: inline-block;
+    text-align:center;
+    vertical-align: top;
+}
+.mainmenu a { display:block; position:relative;}
+.mainmenu a.active:before {
+    background: url(images/sprite.png) 50% 100% no-repeat;
+    content:'';
+    display:block;
+    position:absolute;
+    top: -8px;
+    left: 46%;
+    width: 14px;
+    right: 0px;
+    height: 8px;
+}
+.mainmenu li a.active {
+    color:#d53202;
+}
+.mainmenu li a.active:hover {
+    color: #d53202;
+}
+.mainmenu li:hover {
+}
+.mainmenu li a {
+    color:#fff;
+    font-size:1.1em;
+    padding:20px 15px;
+    margin: 0;
+    display: block;
+    text-decoration: none;
+}
+.mainmenu a:hover {
+    color: #d53202;
+}
+
+.header_phone {
+    position: relative;
+    z-index: 10;
+    text-align: right;
+    clear: both;
+    float: right;
+    margin: 40px 35px 0 0;
+    padding: 0 0 0 40px;
+    background: url(images/icon_phone.png) 0 90% no-repeat;
+    color: #fff;
+    font-size: 1.3em;
+}
+.header_phone p {
+    margin-left: -40px;
+}
+.header_phone strong {
+    font-size: 2.1em;
+    font-weight: normal;
+}
+
+.logo {
+    display:block;
+    background: url(images/sprite.png);
+    width: 255px;
+    height: 90px;
+    margin:20px 0 0 30px;
+    float:left;}
+
+.socials {
+    float:right;
+    margin:20px 80px 0 0;}
+.socials a {
+    display:inline-block;
+    width:42px;
+    height:42px;
+    background-image: url(images/sprite.png);
+    opacity:.7}
+.socials a:hover { opacity:1}
+.fb { background-position:-98px -110px;}
+.tv { background-position:-50px -110px;}
+.gl { background-position:0px -110px;}	

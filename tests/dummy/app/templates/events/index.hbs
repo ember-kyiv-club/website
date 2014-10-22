@@ -1,0 +1,19 @@
+{{#view "section" class="p3"}}
+    <article>
+        <div class="h1">
+            События
+        </div>
+        <div class="events">
+    {{#each event in controller.model}}
+    {{#link-to "events.show" event class="event"}}
+    <img {{bind-attr src=event.image}}>
+    <div>
+        <h3>{{event.title}}</h3>
+        <time>{{event.date}}</time>
+        <div>{{event.shortDescription}}</div>
+    </div>
+    {{/link-to}}
+    {{/each}}
+        </div>
+    </article>
+{{/view}}
