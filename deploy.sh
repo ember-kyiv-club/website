@@ -8,7 +8,6 @@ git commit -am "update dist"
 
 # Move to the "release" branch and make everything work.
 git checkout gh-pages
-git pull origin gh-pages
 git merge master
 ls -1 | grep -v -E '^dist$' | xargs rm -rf
 mv dist/* ./
