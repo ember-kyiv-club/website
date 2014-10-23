@@ -14,6 +14,7 @@ rmdir dist
 echo 'www.ember-club.kiev.ua' > CNAME
 
 # Add everything and push it.
+git add .
 git commit -am "Update."
 git push origin gh-pages
 git checkout master
