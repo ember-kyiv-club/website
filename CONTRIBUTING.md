@@ -15,7 +15,7 @@ We love pull requests. Here's a quick guide:
 
 1. Fork the repo.
 
-2. Run the tests. We only take pull requests with passing tests(`grunt test`)
+2. Run the tests. We only take pull requests with passing tests(`ember test`)
 
 3. Add a test for your change. Only refactoring and documentation changes
 require no new tests. If you are adding functionality or fixing a bug, we need
