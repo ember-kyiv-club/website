@@ -8,10 +8,10 @@ var Router = Ember.Router.extend({
 Router.map(function() {
 	  this.route('index', {path: "/"});
   this.route('team');
-  this.resource('events', function(){
-    this.route('show', {path: "/:event_id/show"});
+  this.resource('meetups', function(){
+    this.route('show', {path: "/:meetup_id/show"});
   });
-  this.route('events');
+  this.route('meetups');
   this.route('projects');
   this.route('contacts');
   this.route('resources');

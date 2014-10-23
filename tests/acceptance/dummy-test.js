@@ -26,7 +26,7 @@ asyncTest('contacts renders', function() {
 asyncTest('events renders', function() {
   expect(1);
 
-  visit('/events');
+  visit('/meetups');
   Ember.run.later(this, function() {
     start();
     equal(find('div .h1').text(), 'События');
