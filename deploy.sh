@@ -14,6 +14,9 @@ mv dist/* ./
 mv dist/.* ./
 rmdir dist
 
+# Setup a page alias
+echo 'www.ember-club.kiev.ua' > CNAME
+
 # Add everything and push it.
 git commit -am "Update."
 git push origin gh-pages
