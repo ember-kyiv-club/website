@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ember-kyiv-club/website.png?branch=master)](https://travis-ci.org/ember-kyiv-club/website)
+[![Code Climate](https://codeclimate.com/github/ember-kyiv-club/ember-kyiv-club-site.png)](https://codeclimate.com/github/ember-kyiv-club/ember-kyiv-club-site)
+
 # Website
 
 This README outlines the details of collaborating on this Ember application.
@@ -37,15 +40,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
 
-Specify what it takes to deploy your app.
+# Contribution
 
-## Further Reading / Useful Links
-
-* ember: http://emberjs.com/
-* ember-cli: http://www.ember-cli.com/
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+[See `CONTRIBUTING.md`](https://github.com/ember-kyiv-club/website/blob/master/CONTRIBUTING.md)
 
