@@ -1,6 +1,6 @@
 import DS from 'ember-data';
 
-var Event = DS.Model.extend({
+var Meetup = DS.Model.extend({
     title:            DS.attr('string'),
     date:             DS.attr('string'),
     shortDescription: DS.attr('string'),
@@ -15,7 +15,9 @@ var Event = DS.Model.extend({
 
     coords: function(){
         if (this.get('lat') && this.get('lon'))
+        {
             return "https://maps.google.com/?ie=UTF8&amp;&q=%@&ll=%@,%@&z=16&output=embed&iwloc=A".fmt(this.get('address'),this.get('lat'), this.get('lon'));
+        }
         return;
     }.property('lat', 'lon'),
 
@@ -26,7 +28,7 @@ var Event = DS.Model.extend({
     }.property()
 });
 
-Event.reopenClass ({
+Meetup.reopenClass ({
     FIXTURES: [
 {
     id: 1,
@@ -46,4 +48,4 @@ Event.reopenClass ({
     ]
 });
 
-export default Event;
+export default Meetup;
