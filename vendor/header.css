@@ -15,7 +15,7 @@
     left:0px;
     right:0px;
     z-index: 100;
-    background:url(images/nav_bg.png);
+    background:url(/assets/images/nav_bg.png);
 }
 .mainmenu ul {
     text-align:center;
@@ -30,7 +30,7 @@
     display:block;
     width:150px;
     height:66px;
-    background:url(images/sprite.png) -150px -92px;
+    background:url(/assets/images/sprite.png) -150px -92px;
 }
 .mainmenu li{
     list-style-type: none;
@@ -41,7 +41,7 @@
 }
 .mainmenu a { display:block; position:relative;}
 .mainmenu a.active:before {
-    background: url(images/sprite.png) 50% 100% no-repeat;
+    background: url(/assets/images/sprite.png) 50% 100% no-repeat;
     content:'';
     display:block;
     position:absolute;
@@ -79,7 +79,7 @@
     float: right;
     margin: 40px 35px 0 0;
     padding: 0 0 0 40px;
-    background: url(images/icon_phone.png) 0 90% no-repeat;
+    background: url(/assets/images/icon_phone.png) 0 90% no-repeat;
     color: #fff;
     font-size: 1.3em;
 }
@@ -93,7 +93,7 @@
 
 .logo {
     display:block;
-    background: url(images/sprite.png);
+    background: url(/assets/images/sprite.png);
     width: 255px;
     height: 90px;
     margin:20px 0 0 30px;
@@ -106,9 +106,9 @@
     display:inline-block;
     width:42px;
     height:42px;
-    background-image: url(images/sprite.png);
+    background-image: url(/assets/images/sprite.png);
     opacity:.7}
 .socials a:hover { opacity:1}
 .fb { background-position:-98px -110px;}
 .tv { background-position:-50px -110px;}
-.gl { background-position:0px -110px;}	
+.gl { background-position:0px -110px;}

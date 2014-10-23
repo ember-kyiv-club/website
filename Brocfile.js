@@ -3,10 +3,8 @@
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
-app.import('vendor/app.css');
 app.import('vendor/forms.css');
 app.import('vendor/header.css');
-app.import('vendor/main.css');
 app.import('vendor/nivo-lightbox.css');
 app.import('vendor/normalize.css');
 app.import('vendor/queries.css');

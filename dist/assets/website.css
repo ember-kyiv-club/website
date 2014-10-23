@@ -82,7 +82,7 @@ body {
     left:0px;
     right:0px;
     bottom:0px;
-    background:url(images/bg.png);
+    background:url(/assets/images/bg.png);
 }
 .section-wrapper > * { position:relative; z-index:1;
 }
@@ -95,23 +95,23 @@ body {
     overflow:hidden;
     padding-bottom: 40px;
 }
-.p1 { background:url(images/p1.jpg) 0px 50% no-repeat;
+.p1 { background:url(/assets/images/p1.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p2 { background:url(images/p2.jpg) 0px 50% no-repeat;
+.p2 { background:url(/assets/images/p2.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p3 { background:url(images/p3.jpg) 0px 50% no-repeat;
+.p3 { background:url(/assets/images/p3.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p4 { background:url(images/p1.jpg) 0px 50% no-repeat;
+.p4 { background:url(/assets/images/p1.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p5 { background:url(images/p2.jpg) 0px 50% no-repeat;
+.p5 { background:url(/assets/images/p2.jpg) 0px 50% no-repeat;
     background-size:cover;}
-.p6 { background:url(images/p6.jpg) 50% no-repeat;
+.p6 { background:url(/assets/images/p6.jpg) 50% no-repeat;
     background-size:cover;}
 .bg {
     position:fixed;
     top:0px; bottom:0px;
     left:0px; right:0px;
-    background:url(images/p1.jpg) 50% no-repeat;
+    background:url(/assets/images/p1.jpg) 50% no-repeat;
     background-size:cover
 }
 article { clear:both; margin:0 auto;
@@ -121,7 +121,7 @@ article { clear:both; margin:0 auto;
     margin:50px auto 0 auto;
     width:270px;
     height:85px;
-    background:url(images/sprite.png) -15px -160px;
+    background:url(/assets/images/sprite.png) -15px -160px;
     opacity:.8}
 .down_arr:hover{opacity:1}
 
@@ -241,7 +241,7 @@ a.event > div:after {
     left:0px;
     right:0px;
     bottom:0px;
-    background:url(images/trans.png);
+    background:url(/assets/images/trans.png);
     opacity:0;
 }
 a.event:hover > div:after { opacity:1;}
@@ -281,7 +281,7 @@ a.event:hover > div:after { opacity:1;}
     left:0px;
     width:65px;
     height:60px;
-    background-image:url(images/sprite.png);
+    background-image:url(/assets/images/sprite.png);
     background-position:-110px -260px;
     opacity:.5;
 }
@@ -309,7 +309,7 @@ a.event:hover > div:after { opacity:1;}
     padding-bottom:20px;
     position:relative;}
 .phones h5:before, .feedback h5:before{
-    background-image:url(images/sprite.png);
+    background-image:url(/assets/images/sprite.png);
     position: relative;
     top:-13px;
     left:0px;
@@ -331,7 +331,7 @@ a.event:hover > div:after { opacity:1;}
     display: inline-block;
     width: 225px;
     height: 306px;
-    background: url(images/gal.png) 50% no-repeat;
+    background: url(/assets/images/gal.png) 50% no-repeat;
     padding: 28px 17px;
 }
 
