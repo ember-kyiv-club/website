@@ -27,7 +27,7 @@ User.reopenClass({
     {
         id:            2,
         nick_name:     "Evgeniy Kurtov",
-        github:        "https://github.com/dirty-hippie",
+        github:        "https://github.com/lessless",
         total_commits: 111,
         email:         "me@lessless.pp.ua"
     },
