@@ -40,7 +40,7 @@ asyncTest('index renders', function() {
   visit('/');
   Ember.run.later(this, function() {
     start();
-    equal(find('article > .h1').text(), 'Ember.js - framework for creating  ambitious  web applications.');
+    equal(find('article > .h1').text(), 'Ember.js - для разработки амбициозных web-приложений.');
   }, 300);
 
 });
