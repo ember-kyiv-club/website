@@ -44,6 +44,13 @@ User.reopenClass({
         github:        "https://github.com/bortevik",
         total_commits: 507,
         email:         "bortevik@gmail.com"
+    },
+    {
+        id:            5,
+        nick_name:     "Igor Kurinnoy",
+        github:        "https://github.com/igorrKurr",
+        total_commits: 1545,
+        email:         "kurinnoyi@gmail.com"
     }
 ]
 });
